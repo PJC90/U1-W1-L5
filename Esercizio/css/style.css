@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+   font-family: 'Open Sans', sans-serif; */
+
+/* <div class="container"> */
+
+.container{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align: center;
+}
+
+/* <header> */
+
+div img{
+    width: 150px;
+}
+#logo{
+    background-color: black;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+}
+header nav {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position-x: -124px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+  }
+nav h1{
+    color: #25a2c3  ;
+    font-size: 2em;
+    font-weight: bold;
+    position: absolute;
+    bottom: 350px;
+    left: 25px;
+}
+nav p{
+    position: absolute;
+    bottom: 180px;
+   
+}
+nav h3 {
+    background-color: #f04c2f ;
+    border-radius: 10px;
+    width: 180px;
+    height: 60px; 
+    position: absolute;
+    bottom: 41px;
+    right: 146px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* <main> */
+
+/* first <section> */
+
+section h3{
+    color: #25a2c3;
+    font-size: 1.1em;
+    font-weight: bold; 
+    margin-top: 30px;
+}
+main > section{
+    margin-top: 60px;
+}
+section img {
+    width: 300px;
+    border-radius: 500px;
+}
+
+/* second <section> */
+
+main section:last-of-type{
+background-color: #f04c2f;
+}
+main section:last-of-type h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 30px;  
+}
+main section:last-of-type h4{
+    font-size: 1.1em;  
+    font-weight: 500;
+    padding-top: 33px;
+}
+main section:last-of-type p{
+    font-size: 0.9em;
+    font-weight: 100;  
+}
+main section:last-of-type {
+    color: white;
+}
+
+/* <aside> */
+
+aside div:first-child{
+background-image: url(../images/foto1.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+    width: 400px;
+    height: 450px;
+    margin: 40px;
+    border: 2px solid  #dee1e3;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+}
+#central-div {
+background-image: url(../images/foto2.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+    width: 400px;
+    height: 450px;
+    margin: 40px;
+    border: 2px solid  #dee1e3;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+}
+aside div:last-child{
+background-image: url(../images/foto3.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+    width: 400px;
+    height: 450px;
+    margin: 40px;
+    border: 2px solid  #dee1e3;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+}
+
+aside p{
+    position: absolute;
+    bottom: 35px;
+    right:auto;
+    left: auto;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+aside h4{
+    position: absolute;
+    bottom: 120px;
+    right: 164px;
+    color: #25a2c3;
+    font-size: 1.1em;
+    font-weight: bold; 
+}
+#central-div h4{
+    position: absolute;
+    bottom: 120px;
+    right: 141px;
+    color: #25a2c3;
+    font-size: 1.1em;
+    font-weight: bold; 
+}
+aside div:last-child h4{
+    position: absolute;
+    bottom: 120px;
+    right: 129px;
+    color: #25a2c3;
+    font-size: 1.1em;
+    font-weight: bold; 
+}
+
+/* <footer> */
+ footer{
+    background-color: #25a2c3;
+    height: 300px;
+    text-align: center;
+    color: white;
+ } 
+ 
+ address h1{
+    font-size: 2em;
+    font-weight: bold;
+ }   
+address{
+    padding: 40px;
+}
+   
